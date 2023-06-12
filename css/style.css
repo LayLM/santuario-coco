@@ -487,4 +487,15 @@ footer a {
         padding: 0;
         margin: 0;
     }
+.visit {
+    padding: 20px;
+}
+.visitaa {
+padding: 20px 50px;
+flex-direction: column;
+}
+.iframeVis {
+    margin-top: 10px;
+}
+
 }
