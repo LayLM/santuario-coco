@@ -320,7 +320,11 @@ header {
 /* involucrate main -----------------------------------------------------------------------*/
 .involu {
     display: flex;
-
+    /* align-items: center; */
+    justify-content: center;
+    padding: 100px 60px;
+    background-image: url(../images-videos/animal.png);
+height: 700px;
 }
 
 .fotoCard {
@@ -328,6 +332,40 @@ header {
     width: 100%;
     object-fit: cover;
 }
+.btn {
+    background-color: #E06469;
+    border: #E06469;
+}
+.card-title {
+    color: #E06469;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
