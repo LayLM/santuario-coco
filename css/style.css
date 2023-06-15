@@ -325,8 +325,9 @@ height: 700px;
 
 
 
-
-
+.card {
+    width: 30%;
+}
 
 
 
@@ -569,9 +570,15 @@ width: 85%;
     text-align: center;
     padding: 0;
 }
+.involu {
+    flex-direction: column;
+    padding: 10px;
+    height: 2000px;
+    align-items: center;
+}
+.card {
+    width: 90%;
 }
 
 
-
-
-
+}
