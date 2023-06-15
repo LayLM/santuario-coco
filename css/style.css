@@ -17,30 +17,11 @@ header {
 
 }
 
-/* .uno {
-    color: black;
-    text-decoration: none;
-    padding: 20px;
-} */
-
 .navbar {
     background-color: #F2B6A0;
     font-family: Reem Kufi Fun;
 
 }
-
-/* .barra-inicio {
-    background-color: #F2B6A0;
-    font-family: Reem Kufi Fun;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    margin: 0px;
-    border: none;
-    padding: 0px;
-    width: 100%;
-    justify-content: space-between;
-} */
 
 
 .banner-uno {
@@ -130,12 +111,13 @@ header {
     -webkit-text-stroke: #F2B6A0 1px;
 }
 
-/* main index*/
+/* main index----------------------------------------------------------------------------*/
 .primeras-palabras {
     font-family: sen;
-    font-size: 40px;
+    font-size: 30px;
     display: flex;
     margin: 5%;
+    text-align: justify;
 }
 
 .video {
@@ -160,9 +142,10 @@ header {
 
 .segundas-palabras {
     font-family: sen;
-    font-size: 40px;
+    font-size: 30px;
     display: flex;
     margin: 5%;
+    text-align: justify;
 }
 
 .img-uno {
@@ -535,5 +518,19 @@ flex-direction: column;
 .iframeVis {
     margin-top: 10px;
 }
+.imagenes-chicas {
+flex-direction: column;
+justify-content: center;
+align-items: center;
 
 }
+.img-chica {
+width: 85%;
+}
+}
+/* .imagenes-chicas {
+
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+} */
