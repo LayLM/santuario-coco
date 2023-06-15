@@ -527,10 +527,51 @@ align-items: center;
 .img-chica {
 width: 85%;
 }
+.main-residentes {
+    grid-template-columns: 100%;
+    grid-template-rows: 200px 320px 200px 360px 200px 400px 200px 450px  ;
+    grid-template-areas: 
+    'foto1'
+    'texto1'
+    'foto2'
+    'texto2'
+    'foto3'
+    'texto3'
+    'foto4'
+    'texto4'
+    ;
+    padding: 10px;
 }
-/* .imagenes-chicas {
 
-    display: flex;
-    align-items: stretch;
-    justify-content: space-around;
-} */
+.main-residentes img {
+    width: 60%;
+    padding: 10px;
+}
+
+.vacas-r-texto {
+    text-align: justify;
+}
+
+.cabras-r-texto {
+    text-align: justify;
+
+}
+
+.cerdos-r-texto {
+    text-align: justify;
+
+}
+
+.gallinas-r-texto {
+    text-align: justify;
+}
+.nuestra {
+    text-align: center;
+    padding: 0;
+}
+}
+
+
+
+
+
